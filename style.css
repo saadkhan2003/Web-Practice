@@ -11,6 +11,7 @@ a{
 .left-side{
     font-size: 24px;
     font-weight: 500; 
+    /* border-bottom: 1px solid #000204; */
 }
 .letter{
     padding-top: 16px;
@@ -20,10 +21,18 @@ a{
     display: flex;
     /* padding-bottom:px ; */
 }
-#email-a{
-    text-decoration: underline;
-    color: blue;
+#passion{
+    display: flex;
+    /* padding-left: 8px; */
+    font-size: 22px;
+    font-weight: 400;
 }
+#email-anchor{
+    color: #e8eaed;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #left-panel{
     color: #e8eaed !important;
     padding-left: 15px;
@@ -38,24 +47,6 @@ a{
     letter-spacing: 0.2px;
     font-size: 30px;
 }
-#address{
-    font-size: 14px;
-    line-height: 1.5;
-    letter-spacing: 0.1px;
-}
-
-#contact-us{
-    font-size: 20px;
-    padding-top: 10px;
-}
-
-#contact-us-div{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    align-items: center;
-}
 
 .icons{
     font-size: 20px;
@@ -65,23 +56,28 @@ a{
     margin-top: 10px;
 }
 .left-padd{
-    padding: 0px 6px;
-    display: inline-block;
-    /* background-color: black; */
-    border-radius: 2px;
-    margin-left: 3px;
+    /*padding: 0px 6px;
+    */display: inline-block;
     color: #00204f;
-    font-weight: 600;
-    font-size: 21px;
-   
+    font-weight: 700;
+    border-top: 3px solid #00204f;
+    border-bottom: 3px solid #00204f;
+    border-right: 3px solid #00204f;
+    padding-right: 10px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 26px;
 }
-.hr-line{
-    width: 80%;
-    border-bottom: 2px solid #a7aaac;
-    margin-left: 10%;
-    border-radius: 30%;
-    
+.second-sec{
+    font-size: 20px;
+    color: #3c4043;
+    padding: 5px 10px;
 }
+/* .bord{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+} */
+
 
 #table-lineremove td{
     border: none;
