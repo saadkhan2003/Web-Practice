@@ -13,6 +13,9 @@ a{
     font-weight: 500; 
     /* border-bottom: 1px solid #000204; */
 }
+#img-main{
+    margin-left: 55px;
+}
 .letter{
     padding-top: 16px;
     line-height: 1px;
@@ -48,6 +51,7 @@ a{
     font-weight: 500;
     letter-spacing: 0.2px;
     font-size: 30px;
+    text-align: center;
 }
 
 .icons{
@@ -76,11 +80,14 @@ a{
     background-color: white 	;
     padding: 5px 10px;
 }
-/* .bord{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-} */
+#passion{
 
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    
+
+}
 
 #table-lineremove td{
     border: none;
