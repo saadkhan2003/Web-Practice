@@ -36,6 +36,8 @@ a{
 #left-panel{
     color: #e8eaed !important;
     padding-left: 15px;
+
+    height: 100%;
 }
 .thickness{
     font-size: 17px;
@@ -90,3 +92,5 @@ a{
 #tel-anchor{
     color: #e8eaed;
 }
+
+
