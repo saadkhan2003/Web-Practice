@@ -71,6 +71,7 @@ a{
 .second-sec{
     font-size: 20px;
     color: #3c4043;
+    background-color: white 	;
     padding: 5px 10px;
 }
 /* .bord{
@@ -85,4 +86,14 @@ a{
 #table-lineremove{
     border: 2px solid #a7aaac;
 }
-
+#centerr{
+    /* display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center; */
+    padding: 30px 0px;
+    background-color: #EDEADE	;
+    width: 39%;
+    margin: 0 auto;
+    height: 100%;
+}
