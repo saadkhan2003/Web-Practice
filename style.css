@@ -1,8 +1,89 @@
+*{
+    font-family: poppins;
+}
 a{
     text-decoration: none;
     color: black;
+}
+.left-side{
+    font-size: 24px;
+    font-weight: 500; 
+}
+.letter{
+    padding-top: 16px;
+    line-height: 1px;
+}
+.spac{
+    display: flex;
+    /* padding-bottom:px ; */
 }
 #email-a{
     text-decoration: underline;
     color: blue;
 }
+#left-panel{
+    color: #e8eaed !important;
+    padding-left: 15px;
+}
+.thickness{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.main-heading{
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    font-size: 30px;
+}
+#address{
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+}
+
+#contact-us{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#contact-us-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.icons{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.left-padd{
+    padding: 0px 6px;
+    display: inline-block;
+    /* background-color: black; */
+    border-radius: 2px;
+    margin-left: 3px;
+    color: #00204f;
+    font-weight: 600;
+    font-size: 21px;
+   
+}
+.hr-line{
+    width: 80%;
+    border-bottom: 2px solid #a7aaac;
+    margin-left: 10%;
+    border-radius: 30%;
+    
+}
+
+#table-lineremove td{
+    border: none;
+}
+#table-lineremove{
+    border: 2px solid #a7aaac;
+}
+
