@@ -100,4 +100,9 @@ a{
     color: #e8eaed;
 }
 
+.hr-line{
+    border: 2px solid #e8eaed;
+    margin: 0% 20%;
+    border-radius: 20%;
+}
 
